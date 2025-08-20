@@ -14,8 +14,11 @@ This project contains a full analysis workflow for scRNA-seq data using Seurat, 
 7. [Notes](#-notes)  
 
 ---
+## 1. Scripts
+- [Integration & Clustring](scripts/Integrate_ScRNA-Seq)
+- [Visualization Plots](scripts/visualization_plots)
 
-## 1. Data Integration & Clustering
+## 2. Data Integration & Clustering
 - Samples (Patients + Types) were integrated using Seurat’s integration pipeline.  
 - Batch effect (patient effect) was regressed out.  
 - UMAP visualization of clusters and sample grouping.  
