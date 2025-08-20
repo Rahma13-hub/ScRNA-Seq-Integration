@@ -16,8 +16,8 @@ This project contains a full analysis workflow for scRNA-seq data using Seurat, 
 
 ---
 ## 1. Scripts
-- [Integrate_ScRNA-Seq](scripts/Integrate_ScRNA-Seq)
-- [Visualization Plots](scripts/visualization_plots)
+- [Integration & Clustering](scripts/Integrate_ScRNA-Seq.R)  
+- [Visualization Plots](scripts/visualization_plots.R)
 
 ## 2. Data Integration & Clustering
 - Samples (Patients + Types) were integrated using Seurat’s integration pipeline.  
