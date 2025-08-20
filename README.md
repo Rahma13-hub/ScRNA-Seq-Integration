@@ -9,9 +9,10 @@ This project contains a full analysis workflow for scRNA-seq data using Seurat, 
 2. [Marker Gene Visualization](#-2-marker-gene-visualization)  
 3. [Differential Expression (DE) Analysis](#-3-differential-expression-de-analysis)  
 4. [Heatmaps of Top DE Genes](#-4-heatmaps-of-top-de-genes)  
-5. [GO Enrichment Analysis](#-5-go-enrichment-analysis-biological-processes)  
-6. [Outputs Summary](#-outputs-summary)  
-7. [Notes](#-notes)  
+5. [GO Enrichment Analysis](#-5-go-enrichment-analysis-biological-processes)
+6. [Integration & Clustring](#scripts/Integrate_ScRNA-Seq)
+7. [Visualization Plots](#scripts/visualization_plots) 
+
 
 ---
 ## 1. Scripts
@@ -29,7 +30,7 @@ This project contains a full analysis workflow for scRNA-seq data using Seurat, 
 
 ---
 
-## 2. Marker Gene Visualization
+## 3. Marker Gene Visualization
 - FeaturePlot and ViolinPlot were used for selected marker genes (CYP2B6, PZP, POU5F1, AFP, ALB).  
 - DotPlot was generated to compare reference markers across clusters.  
 
@@ -41,7 +42,7 @@ This project contains a full analysis workflow for scRNA-seq data using Seurat, 
 
 ---
 
-## 3. Differential Expression (DE) Analysis
+## 4. Differential Expression (DE) Analysis
 Main pairwise comparisons:
 - Tumor vs Background  
 - Tumor vs PDX  
@@ -59,7 +60,7 @@ For each comparison:
 
 ---
 
-## 4. Heatmaps of Top DE Genes
+## 5. Heatmaps of Top DE Genes
 - Selected Top 20 DE genes (based on |log2FC|) for each comparison.  
 - Heatmaps generated with sample annotation by Type.  
 
@@ -68,7 +69,7 @@ For each comparison:
 ![Heatmap Tumor vs Background](results/heatmaps/Heatmap_tumor_vs_background.png)
 
 ---
-## 5. GO Enrichment Analysis (Biological Processes)
+## 6. GO Enrichment Analysis (Biological Processes)
 - Performed separately for Upregulated and Downregulated genes.  
 - Enrichment done with clusterProfiler::enrichGO.  
 
