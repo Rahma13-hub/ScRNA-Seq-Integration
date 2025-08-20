@@ -22,8 +22,7 @@ This project contains a full analysis workflow for scRNA-seq data using Seurat, 
 
  Example:
 
-![DimPlot by cluster](results/clustering/DimPlot_clusters.png)  
-![DimPlot by patient](results/clustering/DimPlot_patient.png)
+![DimPlot_patient_type.png](results/clustering/DimPlot_clusters.png)  
 
 ---
 
