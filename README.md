@@ -5,15 +5,16 @@ This project contains a full analysis workflow for scRNA-seq data using Seurat, 
 ---
 
 ## Table of Contents
-1. [Data Integration & Clustering](#-1-data-integration--clustering)  
-2. [Marker Gene Visualization](#-2-marker-gene-visualization)  
-3. [Differential Expression (DE) Analysis](#-3-differential-expression-de-analysis)  
-4. [Heatmaps of Top DE Genes](#-4-heatmaps-of-top-de-genes)  
-5. [GO Enrichment Analysis](#-5-go-enrichment-analysis-biological-processes)
-6. [Integration & Clustring](#scripts/Integrate_ScRNA-Seq)
-7. [Visualization Plots](#scripts/visualization_plots)
-8. [Functional Insights from GO Enrichment]
-9. [Biological Summary]
+1.  [Scripts]
+2. [Data Integration & Clustering](#-1-data-integration--clustering)  
+3. [Marker Gene Visualization](#-2-marker-gene-visualization)  
+4. [Differential Expression (DE) Analysis](#-3-differential-expression-de-analysis)  
+5. [Heatmaps of Top DE Genes](#-4-heatmaps-of-top-de-genes)  
+6. [GO Enrichment Analysis](#-5-go-enrichment-analysis-biological-processes)
+7. [Integration & Clustring](#scripts/Integrate_ScRNA-Seq)
+8. [Visualization Plots](#scripts/visualization_plots)
+9. [Functional Insights from GO Enrichment](#Functional_Insights_from_GO_Enrichment)
+10. [Biological Summary](#Biological_Summary)
 
 
 ---
