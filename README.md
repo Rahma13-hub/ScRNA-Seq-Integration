@@ -11,7 +11,9 @@ This project contains a full analysis workflow for scRNA-seq data using Seurat, 
 4. [Heatmaps of Top DE Genes](#-4-heatmaps-of-top-de-genes)  
 5. [GO Enrichment Analysis](#-5-go-enrichment-analysis-biological-processes)
 6. [Integration & Clustring](#scripts/Integrate_ScRNA-Seq)
-7. [Visualization Plots](#scripts/visualization_plots) 
+7. [Visualization Plots](#scripts/visualization_plots)
+8. [Functional Insights from GO Enrichment]
+9. [Biological Summary]
 
 
 ---
@@ -90,3 +92,22 @@ Tumor vs PDX
 PDX vs Background
 - [Upregulated](results/enrichment/GO_PDX_vs_background_Up_dotplot.pdf)  
 - [Downregulated](results/enrichment/GO_PDX_vs_background_Down_dotplot.pdf)
+
+
+## Functional Insights from GO Enrichment
+
+The following table summarizes the main upregulated (↑) and downregulated (↓) biological processes across comparisons:
+
+| Comparison          | ↑ Upregulated (Biological processes)                                           | ↓ Downregulated (Biological processes)                                         |
+|---------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| PDX vs Background | - Wound healing, lipid transport  <br> - Actin cytoskeleton regulation        | - Steroid & fatty acid metabolism  <br> - Xenobiotic response (detoxification) |
+| Tumor vs Background | - Small GTPase signaling, actin cytoskeleton regulation <br> - Neuron projection & cell size regulation | - Lipid & organic acid catabolism  <br> - Response to xenobiotics              |
+| Tumor vs PDX      | - Small GTPase signaling, dendrite morphogenesis <br> - Sulfur/organic acid biosynthesis | - Ribosome biogenesis & protein folding <br> - Telomere maintenance regulation |
+
+---
+
+## Biological Summary
+- Tumors → stronger signaling & structural reorganization, but lower proteostasis and metabolic breakdown.  
+- PDX models → maintain ribosome/protein folding activity, but lose xenobiotic & metabolic diversity.  
+- Background tissues → enriched in metabolic and detoxification pathways compared to both PDX and tumor.
+
