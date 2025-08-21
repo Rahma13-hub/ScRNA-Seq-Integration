@@ -5,7 +5,7 @@ This project contains a full analysis workflow for scRNA-seq data using Seurat, 
 ---
 
 ## Table of Contents
-1.  [Scripts]
+1.  [Scripts](#Scripts)
 2. [Data Integration & Clustering](#-1-data-integration--clustering)  
 3. [Marker Gene Visualization](#-2-marker-gene-visualization)  
 4. [Differential Expression (DE) Analysis](#-3-differential-expression-de-analysis)  
